@@ -8,6 +8,7 @@ data/config/luckperms
 data/config/plan
 data/config/spark
 data/config/ledger.toml
+data/config/chunky.json
 data/config/mcdiscordchat*.json
 data/config/PlasmoVoice/server_data.json
 data/config/FabricProxy-Lite.toml
