@@ -22,7 +22,7 @@
 		{
 			x: -3.5d
 			y: -5.5d
-			subtitle: "Используй зарядник для зарядки кварцевого кристалла Certus."
+			subtitle: "Используй зарядник для создания заряженного кристалла истинного квварца [charged certus quartz crystal]."
 			dependencies: ["4AC1C083537E8706"]
 			id: "4ACC10C8890C306E"
 			tasks: [{
@@ -56,7 +56,7 @@
 		{
 			x: -3.5d
 			y: -4.0d
-			subtitle: "Используется для прессования изделий с помощью различных пластин Inscriber Plates."
+			subtitle: "Используется для прессования изделий с помощью различных печатей для вырезателя [Inscriber Plates]."
 			dependencies: ["4ACC10C8890C306E"]
 			id: "42721BC1F7734286"
 			tasks: [{
@@ -73,11 +73,11 @@
 		{
 			x: -5.0d
 			y: -5.5d
-			subtitle: "Обеспечивает возможность зарядки поддерживаемых инструментов через ME Network."
+			subtitle: "Обеспечивает возможность зарядки предметов в ME Network."
 			description: [
-				"Питание может подаваться сверху или снизу, через стеклянный кабель Fluix ME Glass Cable или другие кабели, или другие кабели питания модов. Элементы могут быть вставлены или извлечены с любой стороны."
+				"Питание может подаваться сверху или снизу, через флюисовый кабель [Fluix Cable]. Элементы могут быть вставлены и извлечены с любой стороны."
 				""
-				"Также может быть использован для создания заряженного кристалла кварца Certus из Certus Quartz Crystal."
+				"Также может быть использован для создания заряженного кристалла истинного кварца [charged certus quartz crystal] из кристалла истинного кварца [certus quarts crystal]."
 			]
 			dependencies: ["409FDC9E0FBF40CB"]
 			id: "4AC1C083537E8706"
@@ -118,7 +118,7 @@
 				""
 				"Любой цветной кабель можно обработать ведром воды, чтобы удалить краситель."
 				""
-				"Вы можете покрыть кабель шерстью, чтобы создать Fluix ME Covered Cable, и создать Fluix ME Smart Cable, чтобы получить лучшее представление о том, что происходит с вашими каналами."
+				"Вы можете покрыть кабель шерстью, чтобы создать флюисовый МЭ покрытый кабель [Fluix ME Covered Cable], и создать флюисовый МЭ умный кабель [Fluix ME Smart Cable], чтобы получить лучшее представление о том, что происходит с вашими каналами."
 			]
 			dependencies: ["44B22A645FC94C64"]
 			id: "3C12FD23932C3522"
@@ -137,7 +137,7 @@
 		{
 			x: -2.0d
 			y: -10.0d
-			subtitle: "Используется для ускорения роста кристаллов, что позволяет создавать из кристаллической пыли кристаллы Certus Quartz Crystal и Fluix Crystal."
+			subtitle: "Используется для ускорения роста кристаллов, что позволяет создавать из кристаллической пыли цельные кристаллы."
 			dependencies: ["3C12FD23932C3522"]
 			id: "7B3F4A3D79F2988B"
 			tasks: [{
@@ -157,7 +157,7 @@
 			y: -10.0d
 			subtitle: "Бросьте их в воду!"
 			description: [
-				"Найденная вами кварцевая пыль может быть выращена в кристалл кварца Certus."
+				"Найденная вами кварцевая пыль может быть выращена в кристалл."
 				""
 				"Сначала вы должны сделать семя, соединив кристаллическую пыль с песком. Затем просто опустите/бросьте семя в воду. Семя не будет деспавниться и со временем превратится в кристалл."
 				""
@@ -179,7 +179,7 @@
 		{
 			x: -11.0d
 			y: -4.0d
-			subtitle: "Сеть требует питания, которое может быть обеспечено различными блоками, и может потребовать ME Controller(ы), если вам требуется более 8 каналов в одной сети."
+			subtitle: "Сеть требует питания, которое может быть обеспечено различными блоками, и может потребовать МЭ-регуляторы [ME Controller], если вам требуется более 8 каналов в одной сети."
 			dependencies: ["5683C69200EBC4CD"]
 			id: "696536A55ED81D6B"
 			tasks: [{
@@ -198,7 +198,7 @@
 			y: -5.5d
 			subtitle: "Более умный кабель?"
 			description: [
-				"Несмотря на некоторое сходство с кабелями Fluix ME Covered Cable по внешнему виду, они обеспечивают диагностическую функцию, визуализируя использование каналов на кабелях. Каналы отображаются в виде светящихся цветных линий, которые проходят вдоль черной полосы на кабелях, давая вам понимание того, как используются каналы в вашей сети."
+				"Несмотря на некоторое сходство с флюисовыми стеклянными кабелями [fluix glass cable] с флюисовыми МЭ покрытыми кабелями [Fluix ME Covered Cable] по внешнему виду, они обеспечивают диагностическую функцию, визуализируя использование каналов на кабелях. Каналы отображаются в виде светящихся цветных линий, которые проходят вдоль черной полосы на кабелях, давая вам понимание того, как используются каналы в вашей сети."
 				""
 				"Первые четыре канала отображаются в виде линий, соответствующих цвету кабеля, следующие четыре - в виде белых линий."
 			]
@@ -232,7 +232,7 @@
 				""
 				"Черный - указывает на отсутствие канала или отключение питания."
 				""
-				"Важно отметить, что без ME-сети этот блок ничего не делает. Он полезен только в сочетании со способом ввода и вывода предметов, и для его работы требуется 2 АЕ/т энергии, а также дополнительная энергия для каждой ячейки хранения, хранящейся внутри него."
+				"Важно отметить, что без MЭ-сети этот блок ничего не делает. Он полезен только в сочетании со способом ввода и вывода предметов, и для его работы требуется 2 АЕ/т энергии, а также дополнительная энергия для каждой ячейки хранения, хранящейся внутри него."
 			]
 			dependencies: ["5683C69200EBC4CD"]
 			id: "19FBAF9A70549BF5"
@@ -250,7 +250,7 @@
 		{
 			x: -9.5d
 			y: -6.5d
-			subtitle: "Модернизированная версия терминала ME Terminal, имеющая встроенную ремесленную сеть с доступом к сетевому хранилищу ME Network."
+			subtitle: "Модернизированная версия МЭ терминала [ME Terminal], имеющая встроенную возможность крафта с доступом к сетевому хранилищу МЭ."
 			dependencies: ["19FBAF9A70549BF5"]
 			id: "3988E16DAA388261"
 			tasks: [{
@@ -273,11 +273,11 @@
 				""
 				"Сети могут поддерживать любое количество туннелей разных типов, и все они функционируют независимо друг от друга."
 				""
-				"Туннели ME могут использоваться для передачи каналов из одной точки в другую и могут передавать до 32 каналов, как и кабель Fluix ME с плотным покрытием, при этом требуется только один канал на точку, что делает туннели очень мощным инструментом для расширения моих сетей, особенно на расстоянии."
+				"Туннели МЭ могут использоваться для передачи каналов из одной точки в другую и могут передавать до 32 каналов, как и кабель с плотным покрытием, при этом требуется только один канал на точку, что делает туннели очень мощным инструментом для расширения сетей, особенно на расстоянии."
 				""
 				"Канал, требуемый P2P-туннелем, не может быть передан через другой P2P-туннель."
 				""
-				"Чтобы настроить ME P2P-туннель, необходимо сначала настроить туннель на передачу того, что вы хотите, а затем настроить выходы на их входы."
+				"Чтобы настроить МЭ P2P-туннель, необходимо сначала настроить туннель на передачу того, что вы хотите, а затем настроить выходы на их входы."
 				""
 				"Вы настраиваете соединения с помощью карты памяти; сначала нажмите Shift+ПКМ на входе, чтобы сохранить его на карте памяти, затем просто нажмите ПКМ на различных выходах, чтобы сохранить вход на выходах."
 			]
@@ -318,7 +318,7 @@
 			x: -14.0d
 			y: -5.5d
 			subtitle: "Кабель повышенной емкости, может передавать 32 канала, в отличие от стандартного кабеля, который может передавать только 8 каналов."
-			description: ["Однако он не поддерживает шины, поэтому перед использованием шин или панелей необходимо сначала перейти от плотного кабеля к кабелю меньшей емкости (например, Fluix ME Glass Cable или Fluix ME Smart Cable). Показывает нагрузку аналогично Fluix ME Smart Cable, при этом каждая линия горит, представляя четыре используемых канала."]
+			description: ["Однако он не поддерживает шины, поэтому перед использованием шин или панелей необходимо сначала перейти от плотного кабеля к кабелю меньшей емкости (например, флюисовый стеклянный кабель [Fluix ME Glass Cable] или флюисовый умный кабель [Fluix ME Smart Cable]). Показывает нагрузку аналогично флюисовому умному кабелю [Fluix ME Smart Cable], при этом каждая линия горит, представляя четыре используемых канала."]
 			dependencies: ["2B641E7A30686BCF"]
 			id: "1E435A4C1547934D"
 			tasks: [{
@@ -413,11 +413,11 @@
 		{
 			x: -9.5d
 			y: -9.5d
-			subtitle: "Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
+			subtitle: "Ячейка хранения наивысшего уровня, которая может содержать 65536 байт памяти."
 			description: [
-				"65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items."
+				"65536 байта памяти может вмещать 8,128 стаков одного предмета или 4160 стаков, вмещая при этом 63 разных предмета."
 				""
-				"The 64k Storage Cell uses 512 bytes of data to store a single type."
+				"Ячейка хранения 64k использует 512 байт данных для хранения одного типа."
 			]
 			dependencies: ["19FBAF9A70549BF5"]
 			id: "451C8D5D92F1BAED"
@@ -439,15 +439,15 @@
 		{
 			x: -8.0d
 			y: -7.0d
-			subtitle: "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
+			subtitle: "Специализированная версия терминала изготовления [ME Crafting Terminal], который используется для шифрования пустых шаблонов [Blank Pattern] в шаблон изготовления или в шаблон обработки."
 			description: [
-				"Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns."
+				"Позволяет просматривать инвентарь системы как и другие терминалы, а также имеет область для дизайна шаблонов."
 				""
-				"There are two modes for pattern encoding. Crafting Patterns, and Processing Patterns."
+				"Существует два режима для шифровая шаблонов. Шаблон Изготовления и Шаблон Обработки."
 				""
-				"Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. "
+				"Шаблоны Обработки используются для машин, которые используют рецепты не как на верстаке; например печь, стол кузнеца, другие машины. "
 				""
-				"To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns."
+				"Для выбора между режимами, нажмите на кнопку правее от интерфейса; если отображается верстак, то выйдет шаблон изготовления, а если показывает печь, то будет шаблон обработки."
 			]
 			dependencies: [
 				"3988E16DAA388261"
@@ -468,11 +468,11 @@
 		{
 			x: -9.5d
 			y: -7.5d
-			subtitle: "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
+			subtitle: "Терминал, дающий доступ к хранимым ресурсам в МЭ Системе. Также дают доступ к предметам, который соеденены через МЭ Шины Хранения [ME Storage Bus]."
 			description: [
-				"It has the ability to sort and search, as well as filter by using View Cell. It requires a channel to function."
+				"Имеет возможности сортировать, искать, а также фильтровать предметы. Требует канал для работы."
 				""
-				"Can be upgraded into a ME Crafting Terminal."
+				"Может быть улучшен в МЭ Терминал Изготовления [ME Crafting Terminal]."
 			]
 			dependencies: ["19FBAF9A70549BF5"]
 			id: "4555AD508D9C6CEB"
@@ -490,7 +490,7 @@
 		{
 			x: 2.0d
 			y: -4.5d
-			subtitle: "Read ME Pattern Provider quest for more info."
+			subtitle: "Прочитай квест на МЭ Поставщик шаблонов для информации."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "115B865B26BE47E5"
 			tasks: [{
@@ -507,8 +507,8 @@
 		{
 			x: 4.0d
 			y: -4.5d
-			subtitle: "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
-			description: ["It is the base for crafting the other functional components of a crafting CPU."]
+			subtitle: "Именно этот блок ничего не даёт для процессора, но его можно использовать как филлер."
+			description: ["Это основа для создания функциональных компонентов процессора."]
 			dependencies: ["2BE8127E1180DA21"]
 			id: "159C31FE32578AD2"
 			tasks: [{
@@ -525,7 +525,7 @@
 		{
 			x: 3.0d
 			y: -4.5d
-			subtitle: "Read ME Pattern Provider quest for more info."
+			subtitle: "Прочитай квест на МЭ Поставщик шаблонов для информации."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "63DF8DED795008EA"
 			tasks: [{
@@ -542,7 +542,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
-			subtitle: "Provides 1024 bytes of storage for crafting."
+			subtitle: "Даёт 1024 байта хранения для процессов создания."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "719707385946F7F4"
 			tasks: [{
@@ -559,7 +559,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			subtitle: "Provides 4,096 bytes of storage for crafting."
+			subtitle: "Даёт 4096 байта хранения для процессов создания."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "2C7ABB61B3B1AD85"
 			tasks: [{
@@ -576,7 +576,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			subtitle: "Provides 16,384 bytes of storage for crafting."
+			subtitle: "Даёт 16384 байта хранения для процессов создания."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "1C9473DDA8CA1AC1"
 			tasks: [{
@@ -593,7 +593,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			subtitle: "Provides 65,536 bytes of storage for crafting."
+			subtitle: "Даёт 65536 байта хранения для процессов создания."
 			dependencies: ["2BE8127E1180DA21"]
 			id: "6862A2B7639A470E"
 			tasks: [{
@@ -658,19 +658,19 @@
 		{
 			x: -5.5d
 			y: -1.5d
-			subtitle: "Allows you to configure which users, and what permissions the users have with the ME System."
+			subtitle: "Позволяет конфигирировать какие игроки и какие права они могут иметь в этой МЭ Системе."
 			description: [
-				"By existing it enforces permissions on the usage of the system."
+				"Просто существуя она начинает требовать права для её использования."
 				""
-				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal."
+				"Защитная система не предотвращает деструктивное вмешательство, удаление кабелей / машин или ломания дисководов."
 				""
-				"If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security."
+				"Для защиты системы от физического вандализма придётся найти другой способ физической защиты (приваты). Этот блок защищает лишь систему."
 				""
-				"The player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights."
+				"Игрок, который поставить терминал безопасности имеет полный контроль и перечень прав в системе, от которых он не может избавится."
 				""
-				"By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered."
+				"При добавлении пустой биометрической карты [Biometric Card] можно выставить стандартные правила для каждого игрока, биометрическая карта которого не зарегистрирована."
 				""
-				"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
+				"Кроме добавления защиты на системный уровень, здесь также можно подключить свою беспроводную точку доступа [Wireless Terminal] к системе и пользоватся ей на расстоянии."
 			]
 			dependencies: ["679955AA48F79365"]
 			id: "57507836248CB116"
@@ -704,13 +704,13 @@
 		{
 			x: -5.5d
 			y: 1.5d
-			subtitle: "Allows wireless access via a Wireless Terminal."
+			subtitle: "Позволяет использовать терминал на расстоянии."
 			description: [
-				"Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point."
+				"Дальность и энергозатратность определяется количеством беспроводных усилителей [Wireless Booster] встроенных в МЭ беспроводную точку доступа [ME Wireless Access Point]."
 				""
-				"A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup."
+				"Сеть может иметь неограниченное количестве беспроводных точек доступа с любым количеством усилителей в каждой, позволяя оптимизировать энергозатратность и дальность по разному меняя расстановку."
 				""
-				"Requires a channel to be operational."
+				"Требует канал для использования."
 			]
 			dependencies: ["563432F2BB1EE1AF"]
 			id: "69597F2A6D80AE29"
@@ -728,7 +728,7 @@
 		{
 			x: -5.5d
 			y: 3.0d
-			subtitle: "Links up the WAT to the network."
+			subtitle: "Связывается с системой."
 			dependencies: ["69597F2A6D80AE29"]
 			id: "0B27217B40C19911"
 			tasks: [{
@@ -745,7 +745,7 @@
 		{
 			x: -5.5d
 			y: 4.5d
-			subtitle: "Used to increase the range of the ME Wireless Access Point."
+			subtitle: "Используется для повышения дальности работы МЭ Беспроводной Точки Доступа [ME Wireless Access Point]."
 			dependencies: ["0B27217B40C19911"]
 			id: "7814B078C6256761"
 			tasks: [{
@@ -762,17 +762,17 @@
 		{
 			x: -7.5d
 			y: -1.5d
-			subtitle: "Required to create a connection between to Quantum Network Bridges."
+			subtitle: "Необходим для создания связи между квантовыми сетевыми мостами."
 			description: [
-				"They are always produced in matching pairs, to create a connection place 1 of the pair of Quantum Entangled Singularity into the ME Quantum Link Chamber of the bridge on each side."
+				"Они всегда создаются одинаковыми парами, для создания связи, поставить одну Сингулярность Квантовой Запутанности [Quantum Entangled Singularity] в МЭ Камеру Квантовой Связи [ME Quantum Link] моста на каждой стороне."
 				""
-				"They are crafted by causing a reaction between Ender Pearl or Ender Dustand a Singularity. Any explosive force should be enough to trigger the reaction."
+				"Они создаются при помощи создания реации между эндер-жемчугом или эндер-пыли и сингулярности. Любой взрыв рядом должен начать реакцию."
 				""
-				"Nearly any explosion - even creepers - will work."
+				"Почти любой взрыв - даже крипер - должен сработать."
 				""
-				"Always produced in pairs, but only require a single Singularity."
+				"Всегда создаются парами, но требуют лишь одну сингулярность."
 				""
-				"It might be a good idea to label these with names when you create them using the vanilla anvil."
+				"Возможно будет хорошей идеей переименовать их при помощи наковальни."
 			]
 			dependencies: ["679955AA48F79365"]
 			id: "5CF50859A98E45FB"
@@ -790,11 +790,11 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			subtitle: "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
+			subtitle: "Один из этих блоков окруженный МЭ Квантовым Кольцом [ME Quantum Ring] должен создать квантовый сетевой мост."
 			description: [
-				"This block doesn't connect to any cables and only registers as part of the network with the full bridge is made."
+				"Этот блок не соеденяется с кабелями и только начинает работать как часть сети после полного создания моста."
 				""
-				"This blocks inventory can only hold a single Quantum Entangled Singularity and is automation accessible."
+				"Инвентарь этого блока может хранить одну Сингулярность Квантовой Запутанности [Quantum Entangled Singularity] и способен к автоматизации."
 			]
 			dependencies: ["5CF50859A98E45FB"]
 			id: "2FB251E717EA2F3C"
@@ -812,8 +812,8 @@
 		{
 			x: -7.5d
 			y: 1.5d
-			subtitle: "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
-			description: ["Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."]
+			subtitle: "Восемь таких блоков поставленных вокруг МЭ Камеры Квантовой Связи [ME Quantum Link] должен создать квантовый сетевой мост."
+			description: ["Лишь 4 МЭ Квантовых Колец [ME Quantum Ring] присоединенных к камере квантовой связи [Quantum Link] примут связь с системой, 4 уголвых блока не могут присоединится к кабелям."]
 			dependencies: ["2FB251E717EA2F3C"]
 			id: "300343A7965531DD"
 			tasks: [{
@@ -828,56 +828,56 @@
 			}]
 		}
 		{
-			title: "Security, Wireless and Beyond"
+			title: "Защита, Беспороводность и За Гранью"
 			x: -6.5d
 			y: -3.0d
-			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			description: ["Основная особенность AE2 - это МЭ Систем (произности как Эмм- Еее и означает Материальная Энергия), которая является комбинацией соединенных блоков и кабелей сгрупированных в одну систему, где вместилище, энергия и функции кооперируют между разными компонентами."]
 			id: "679955AA48F79365"
 			tasks: [{
 				id: "1349A47C54D391CA"
 				type: "checkmark"
-				title: "Security and Wireless"
+				title: "Защита и Беспроводность"
 			}]
 		}
 		{
-			title: "Automation is key!"
+			title: "Автоматизация - это ключ!"
 			x: 2.5d
 			y: -3.0d
-			subtitle: "Use various interfaces and automate your network."
-			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			subtitle: "Используй разные интерфейсы и автоматизируй свою систему."
+			description: ["Основная особенность AE2 - это МЭ Систем (произности как Эмм- Еее и означает Материальная Энергия), которая является комбинацией соединенных блоков и кабелей сгрупированных в одну систему, где вместилище, энергия и функции кооперируют между разными компонентами."]
 			id: "2BE8127E1180DA21"
 			tasks: [{
 				id: "2E567019AD31DD51"
 				type: "checkmark"
-				title: "So you want to automate?"
+				title: "Так что же, ты хочешь автоматизации?"
 			}]
 		}
 		{
-			title: "Storage and Transport"
+			title: "Вместилище и Транспортировка"
 			x: -11.0d
 			y: -5.5d
-			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			description: ["Основная особенность AE2 - это МЭ Систем (произности как Эмм- Еее и означает Материальная Энергия), которая является комбинацией соединенных блоков и кабелей сгрупированных в одну систему, где вместилище, энергия и функции кооперируют между разными компонентами."]
 			id: "5683C69200EBC4CD"
 			tasks: [{
 				id: "35DEBD075D82821D"
 				type: "checkmark"
-				title: "Storage and transport"
+				title: "Вместилище и Транспортировка"
 			}]
 		}
 		{
 			x: 1.0d
 			y: -4.5d
-			subtitle: "Recipes need to be encoded into patterns to be usable by crafting CPUs."
+			subtitle: "Рецепты должны быть зашифрованы в шаблоны, чтобы быть используемыми в производственных процессорах."
 			description: [
-				"The encoded patterns need to be put into pattern providers on the same network as the Crafting CPU itself."
+				"Зашифрованные шаблоны должны быть вставлены в МЭ Поставщик Шаблонов [ME Pattern Provider] в той же системе, в которой находится производственный процессор."
 				""
-				"When the crafting CPU then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider."
+				"Когда производственный процессор захочет произвести результат крафта, то направит этот запрос Поставщику Шаблонов."
 				""
-				"Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again."
+				"Обычно Поставщик Шаблонов отправляет ингредиенты блоку поблизости (Например Молекулярному Сборщику [Molecular Assembler] для крафта обычный рецептов) и продолжает выполнение задачи (крафта), пока результат не вернётся в систему."
 				""
-				"his can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
+				"Это может быть выполнено при помощи вставки результата обратно в Поставщик Шаблонов, МЭ Интерфейс или через другие варианты импорта готового крафта в систему."
 				""
-				"Molecular assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
+				"Молекулярные сборщики [Molecular assemblers] достаточно умные, чтобы автоматически вернуть результат крафта в тот Поставщик Шаблона, который и выдал ингредиенты."
 			]
 			dependencies: ["2BE8127E1180DA21"]
 			id: "20AD73B935309188"
