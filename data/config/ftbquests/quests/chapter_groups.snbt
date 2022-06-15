@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "33A417364C0A17FE", title: "Логистика" }
+		{ id: "76C22988F9A7C9CE", title: "Утилитарные" }
+		{ id: "0815C5D80307ECDF", title: "Технологии" }
+		{ id: "1039AC171AB01709", title: "Магия" }
+		{ id: "1FCC565F739A4207", title: "Скрытое" }
+	]
+}

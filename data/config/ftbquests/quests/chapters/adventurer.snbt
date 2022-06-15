@@ -1,0 +1,163 @@
+{
+	id: "4F80AA2EB0DCC10C"
+	group: ""
+	order_index: 1
+	filename: "adventurer"
+	title: "Adventurer"
+	icon: "artifacts:aqua_dashers"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Приключения и тайны"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Если бы нам было суждено остаться на одном месте, у нас были бы корни, а не ноги."
+			id: "6EC4700B21DB617B"
+			tasks: [{
+				id: "40FC0E99020D1BB4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Рыбы и ящики!"
+			icon: {
+				id: "gofish:celestial_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Рыбалка должна приносить удовольствие."
+			description: [
+				"Go Fish добавляет рыбу, которую можно получить где угодно в любой области для каждого измерения, и рыбу, специфичную для биома, которую можно получить только в определенных областях (см. ниже)."
+				""
+				"Overworld (Global):"
+				"- Wooden Crate"
+				"- Iron Crate"
+				"- Golden Crate"
+				"- Diamond Crate"
+				""
+				"В полнолуние:"
+				"- Lunarfish"
+				"- Galaxy Starfish"
+				"- Starry Salmon"
+				"- Nebula Swordfish"
+				"- Astral Crate"
+				""
+				"The Nether (Global):"
+				"- Smokey Salmon"
+				"- Magma Cod"
+				"- Bonefish"
+				"- Obsidian Halibut"
+				"- Basalt Bass"
+				"- Spikerfish"
+				"- Fiery Crate"
+				""
+				"Basalt Deltas:"
+				"- Gilded Blackstone Carp"
+				"- Gilded Blackstone Crate"
+				"- Blackstone Trout"
+				""
+				"Soul Sand Valley:"
+				"- Soul Salmon"
+				"- Soul Crate"
+				""
+				"The End:"
+				"- Baked Endfish"
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "1941554F8883F5BE"
+			tasks: [{
+				id: "52BEAE23DF485E51"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "gofish"
+					}
+				}
+			}]
+			rewards: [{
+				id: "69D9C7A4DDC5D916"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Путеводные камни"
+			x: -0.5d
+			y: -3.0d
+			subtitle: "Откройте для себя свой первый путеводный камень, который можно найти в деревнях."
+			description: ["Вы можете разбивать путевые камни и использовать их для креативных способов телепортации."]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "23C3589FAFB40AD5"
+			tasks: [{
+				id: "73C759A163CEAEE8"
+				type: "observation"
+				icon: "waystones:waystone"
+				timer: 0L
+				observe_type: 0
+				to_observe: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "7E79E623D0CD9F54"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Найти могильник"
+			icon: "graveyard:skull_with_rib_cage"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Найдите небольшое могильное сооружение. Обязательно загляните под могилы, чтобы найти сверкающую добычу."
+			dependencies: ["6EC4700B21DB617B"]
+			id: "14DE762F4663D1C9"
+			tasks: [{
+				id: "63A78B39851541A7"
+				type: "structure"
+				structure: "graveyard:small_graveyard"
+			}]
+			rewards: [{
+				id: "151790FF4F267945"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Artifacts"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Магические предметы, обладающие огромной силой."
+			description: [
+				"Предметы, добавленные этим модом, можно найти в сундуках."
+				""
+				"Все артефакты имеют всего несколько сундуков, в которых их можно найти, поэтому отправляйтесь на поиски!"
+				""
+				"Кроме того, была добавлена новая структура подземного данжа. В этих местах вместо сундуков иногда появляются мимики - опасные враги, которые нападают на игроков, подошедших слишком близко. При убийстве мимики всегда выпадает случайный артефакт."
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "32910C1041DE2764"
+			tasks: [{
+				id: "51B9513FF8AB7491"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F25E542A51AFADF"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+	]
+}

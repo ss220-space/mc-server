@@ -1,0 +1,7 @@
+* text=auto
+
+## Enforce text mode and LF line breaks
+*.snbt text eol=lf
+
+## Enforce binary mode
+*.jar binary

@@ -1,0 +1,22 @@
+{
+  "id": "default",
+  "name": "Default",
+  "header": [
+    "",
+    "<bold> SS220 AOF5 1</bold> ⛏ ",
+    "",
+    "<color:#555555><strikethrough>                </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>                </strikethrough></color>",
+    ""
+  ],
+  "footer": [
+    "",
+    "<color:#555555><strikethrough>                                          </strikethrough></color>",
+    " Сервер ",
+    "",
+    "<gray>TPS: %spark:tps/5s% <dark_gray>|</dark_gray> <gray>MSPT: %server:mspt_colored% <dark_gray>|</dark_gray> <gray>Пинг: <color:#ffba26>%player:ping%</color>",
+    "<gray>ЦПУ: %spark:cpu_process/10s% <dark_gray>|</dark_gray> <gray>ОЗУ: <color:#ffba26>%server:used_ram/gb%<gray>/</gray>%server:max_ram/gb%</color> ГБ",
+    ""
+  ],
+  "hidden": false,
+  "permission": ""
+}
