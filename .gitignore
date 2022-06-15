@@ -17,7 +17,7 @@ data/libraries
 data/logs
 data/crash-reports
 
-data/mods/luckperms
+data/mods
 
 data/world/*
 !data/world/serverconfig
