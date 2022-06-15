@@ -18,6 +18,7 @@ data/logs
 data/crash-reports
 
 data/mods
+data/versions
 
 data/world/*
 !data/world/serverconfig
