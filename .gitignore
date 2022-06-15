@@ -26,11 +26,14 @@ data/world/*
 *.db
 *.sqlite
 
-server.properties
+data/server.properties
+data/eula.txt
+data/banned-ips.json
+data/banned-players.json
+data/ipcache.json
+data/ops.json
+data/usercache.json
+data/whitelist.json
 
-banned-ips.json
-banned-players.json
-ipcache.json
-ops.json
-usercache.json
-whitelist.json
+data/fabric-server-*
+data/server.jar
