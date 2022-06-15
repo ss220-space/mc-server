@@ -2,7 +2,7 @@
 
 JAVA="java"
 MINECRAFT="1.18.2"
-FABRIC="0.14.6"
+FABRIC="0.14.7"
 INSTALLER="0.10.2"
 ARGS="-Xms8G -Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -XX:ShenandoahGCMode=iu -XX:+UseNUMA -XX:+AlwaysPreTouch -XX:-UseBiasedLocking -XX:+DisableExplicitGC -Dfile.encoding=UTF-8"
 OTHERARGS="-Dlog4j2.formatMsgNoLookups=true"
