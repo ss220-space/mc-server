@@ -13,7 +13,7 @@ data/config/mcdiscordchat*.json
 data/config/PlasmoVoice/server_data.json
 data/config/FabricProxy-Lite.toml
 
-data/libraries
+data/journeymap
 
 data/logs
 data/crash-reports
