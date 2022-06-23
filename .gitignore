@@ -1,6 +1,7 @@
 data/?
 
-data/.fabric
+data/.fabric/*
+!data/.fabric/server
 
 data/config/InvSync.mcfg
 data/config/banhammer/config.json
@@ -12,6 +13,7 @@ data/config/chunky.json
 data/config/mcdiscordchat*.json
 data/config/PlasmoVoice/server_data.json
 data/config/FabricProxy-Lite.toml
+data/config/journeymap-server.json
 
 data/journeymap
 
@@ -39,3 +41,4 @@ data/whitelist.json
 
 data/fabric-server-*
 data/server.jar
+data/ServerWrapperConfig.json

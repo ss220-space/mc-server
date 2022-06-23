@@ -6,7 +6,7 @@ services:
     container_name: "minecraft-ss220-aof5-1"
     restart: unless-stopped
     # cpuset: "10,11,22,23"
-    user: "1004:1004"
+    user: "1000:1000"
     stdin_open: true # docker run -i
     tty: true        # docker run -t
     volumes:
@@ -15,18 +15,16 @@ services:
     - ./data:/data
     environment:
       EULA: "true"
-      # TYPE: CURSEFORGE
       TYPE: FABRIC
       VERSION: 1.18.2
+      FABRIC_LAUNCHER: 'ServerWrapper.jar'
       # SETUP_ONLY: true
-      MEMORY: 6G
+      MEMORY: 10G
       # JVM_XX_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
       JVM_OPTS: "--add-modules jdk.incubator.vector"
       # https://github.com/hilltty/hilltty-flags/blob/main/russian-lang.md
       # -XX:+UseLargePages -XX:LargePageSizeInBytes=2M
       JVM_XX_OPTS: "-XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -XX:ShenandoahGCMode=iu -XX:+UseNUMA -XX:+AlwaysPreTouch -XX:-UseBiasedLocking -XX:+DisableExplicitGC -Dfile.encoding=UTF-8"
-      # CF_BASE_DIR: /data
-      # CF_SERVER_MOD: https://media.forgecdn.net/files/3804/744/All-of-Fabric-5-Server-1.2.3.zip
 
       REMOVE_OLD_MODS: "true"
       MODS_FILE: /extras/mods.txt
@@ -61,8 +59,8 @@ services:
       #  /kill @e[type=minecraft:boat]
 
     ports:
-      - "10.220.2.7:26001:25565/tcp"
-      - "10.220.2.7:26001:25565/udp"
+      - "0.0.0.0:26001:25565/tcp"
+      - "0.0.0.0:26001:25565/udp"
 
 volumes:
   data: {}

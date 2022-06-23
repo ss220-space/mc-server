@@ -1,6 +1,6 @@
 version = 3
 # (Default: 4) Configures the parallelism of global executor
-globalExecutorParallelism = 6
+globalExecutorParallelism = 32
 
 [noTickViewDistance]
 	# (Default: true) Whether to use compatibility mode to send chunks 
@@ -24,7 +24,9 @@ globalExecutorParallelism = 6
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	doMidTickChunkTasks = "default"
+	# Set to false for the following reasons: 
+	# Incompatible with dimthread@1.2.6-1.18.2-sand-duper-fix.3 (*) (defined in c2me) 
+	doMidTickChunkTasks = false
 	# (Default: true) Whether to let async chunk request no longer block server thread
 	# (may cause incompatibility with other mods)
 	optimizeAsyncChunkRequest = "default"
