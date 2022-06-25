@@ -1,5 +1,5 @@
 version = 3
-# (Default: 4) Configures the parallelism of global executor
+# (Default: 24) Configures the parallelism of global executor
 globalExecutorParallelism = 32
 
 [noTickViewDistance]
@@ -24,9 +24,7 @@ globalExecutorParallelism = 32
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	# Set to false for the following reasons: 
-	# Incompatible with dimthread@1.2.6-1.18.2-sand-duper-fix.3 (*) (defined in c2me) 
-	doMidTickChunkTasks = false
+	doMidTickChunkTasks = true
 	# (Default: true) Whether to let async chunk request no longer block server thread
 	# (may cause incompatibility with other mods)
 	optimizeAsyncChunkRequest = "default"
@@ -62,9 +60,9 @@ globalExecutorParallelism = 32
 	# (Default: false) Whether to use the optimized implementation of IO system
 	replaceImpl = true
 	# (Default: 1536) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
+	chunkDataCacheSoftLimit = 2048
 	# (Default: 6144) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
+	chunkDataCacheLimit = 6144
 
 [asyncScheduling]
 	# (Default: true) Whether to enable async and parallel scheduling 
