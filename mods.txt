@@ -29,7 +29,7 @@ https://media.forgecdn.net/files/3742/119/cammies-minecart-tweaks-1.5.jar
 https://media.forgecdn.net/files/3770/4/campanion-3.0.4.jar
 https://media.forgecdn.net/files/3771/670/capybara-1.18-1.0.4.jar
 https://media.forgecdn.net/files/3724/178/caracal-1.18.2-1.3.8.jar
-# https://github.com/fxmorin/carpet-fixes/releases/download/v1.7.9/carpet-fixes-1.18.x-1.7.9.jar
+https://github.com/fxmorin/carpet-fixes/releases/download/v1.7.9/carpet-fixes-1.18.x-1.7.9.jar
 https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.36.0/carpet-tis-addition-mc1.18.2-v1.36.0.jar
 https://media.forgecdn.net/files/3671/184/carrier-1.10.0.jar
 https://media.forgecdn.net/files/3816/592/cc-restitched-1.100.6.jar
@@ -42,6 +42,7 @@ https://media.forgecdn.net/files/3549/604/cleancut-1.18-4.0-fabric.jar
 https://media.forgecdn.net/files/3782/775/cloth-config-6.2.62-fabric.jar
 https://files.ss220.space/minecraft/mods/Clumps-fabric-1.18.2-8.0.0+8.jar
 https://media.forgecdn.net/files/3717/806/Companion-1.18.2-fabric-2.0.1.jar
+https://mediafiles.forgecdn.net/files/3771/984/CosmeticArmor-1.18.2-1.3.1.jar
 https://files.ss220.space/minecraft/mods/Couplings-1.8.1+1.18.2.jar
 https://media.forgecdn.net/files/3755/798/crawl-0.10.6.jar
 https://media.forgecdn.net/files/3787/154/creeperoverhaul-1.18.2-1.3.1-fabric.jar
@@ -56,7 +57,7 @@ https://media.forgecdn.net/files/3805/531/dawn-3.3.1.jar
 https://media.forgecdn.net/files/3758/209/deepmoblearning-refabricated-1.18.2.jar
 https://media.forgecdn.net/files/3810/210/deepslatecutting-1.18.2-1.3.4.jar
 https://media.forgecdn.net/files/3782/903/Display+Case-fabric-1.18.2-1.0.1.jar
-https://files.ss220.space/minecraft/mods/DimThread-1.2.6-1.18.2-sand-duper-fix.3.jar
+# https://files.ss220.space/minecraft/mods/DimThread-1.2.6-1.18.2-sand-duper-fix.3.jar
 https://media.forgecdn.net/files/3814/476/dragonloot-1.1.0.jar
 https://media.forgecdn.net/files/3783/155/dual_riders-1.18.2-1.1.1-fabric.jar
 https://media.forgecdn.net/files/3595/860/dwarfcoal-1.18.1-1.0.1.jar
@@ -105,6 +106,7 @@ https://media.forgecdn.net/files/3566/189/infusion-table-mod-1.0.5.jar
 https://media.forgecdn.net/files/3783/618/inmis-2.6.0-1.18.2.jar
 https://media.forgecdn.net/files/3817/936/InventorySorter-1.8.7-1.18.jar
 # https://cdn.modrinth.com/data/F4ANsPlF/versions/v2.2.0-1.18.2/invsync-v2.2.0-1.18.2.jar
+https://files.ss220.space/minecraft/mods/invsync-v2.2.1.jar
 https://media.forgecdn.net/files/3787/856/item-filters-fabric-1802.2.7-build.27.jar
 https://media.forgecdn.net/files/3802/327/jam-lib-0.0.5.jar
 https://media.forgecdn.net/files/3820/38/journeymap-1.18.2-5.8.5-fabric.jar
@@ -118,7 +120,7 @@ https://github.com/QuiltServerTools/Ledger/releases/download/v1.2.4/ledger-1.2.4
 https://files.ss220.space/minecraft/mods/lifts-1.4.1-BETA+1.18.jar
 https://media.forgecdn.net/files/3801/263/lithium-fabric-mc1.18.2-0.7.10.jar
 https://media.forgecdn.net/files/3790/958/Log-Begone-Fabric-1.18-1.0.0.jar
-# https://media.forgecdn.net/files/3759/362/logprot-fabric-1.18-1.6.jar
+https://media.forgecdn.net/files/3759/362/logprot-fabric-1.18-1.6.jar
 # https://media.forgecdn.net/files/3808/738/lootr-1.18.2-0.3.20.57.jar
 https://download.luckperms.net/1433/fabric/LuckPerms-Fabric-5.4.25.jar
 https://ci.lucko.me/job/LuckPermsPlaceholders/lastSuccessfulBuild/artifact/fabric-placeholderapi/build/libs/LuckPerms-Fabric-PlaceholderAPI-Hook.jar
@@ -129,6 +131,8 @@ https://media.forgecdn.net/files/3740/800/mcw-doors-1.0.6fabric-mc1.18.2.jar
 https://media.forgecdn.net/files/3817/474/mcw-fences-1.0.5fabric-mc1.18.2.jar
 https://media.forgecdn.net/files/3750/59/mcw-lights-1.0.3c+fabric-mc1.18.2.jar
 https://media.forgecdn.net/files/3696/707/mcw-paintings-1.0.3fabric-mc1.18.2.jar
+https://mediafiles.forgecdn.net/files/3810/632/mcw-paths-1.0.0fabric-mc1.18.2.jar
+https://mediafiles.forgecdn.net/files/3760/194/mcw-roofs-2.1.2fabric-mc1.18.2.jar
 https://media.forgecdn.net/files/3682/902/mcw-trapdoors-1.0.5fabric-mc1.18.2.jar
 https://media.forgecdn.net/files/3769/381/megane-7.5.1.jar
 # https://media.forgecdn.net/files/3696/68/mobscarecrow-1.2.2.jar
@@ -138,7 +142,7 @@ https://media.forgecdn.net/files/3788/979/more-geodes-1.4.2.jar
 https://media.forgecdn.net/files/3699/183/morevillagers-FABRIC-1.18.2-3.2.0.jar
 https://files.ss220.space/minecraft/mods/mostructures-1.4.2+1.18.2.jar
 https://media.forgecdn.net/files/3722/950/multiworldborders-1.4-fabric-1.18.2.jar
-https://media.forgecdn.net/files/3737/897/Multiworld-Fabric-1.4.jar
+# https://media.forgecdn.net/files/3737/897/Multiworld-Fabric-1.4.jar
 https://media.forgecdn.net/files/3772/875/mythic-mounts-1.18.2-7.0.jar
 https://media.forgecdn.net/files/3684/915/NaturesCompass-1.18.2-2.0.3-fabric.jar
 https://media.forgecdn.net/files/3758/398/nears-fabric-1.18-1.1.8.jar
@@ -165,6 +169,7 @@ https://media.forgecdn.net/files/3820/126/rhino-fabric-1802.1.13-build.179.jar
 https://media.forgecdn.net/files/3814/508/rightclickharvest-2.0.7.jar
 # https://media.forgecdn.net/files/3816/876/RoughlyEnoughItems-8.2.471.jar
 https://media.forgecdn.net/files/3824/452/RoughlyEnoughItems-8.2.473.jar
+https://mediafiles.forgecdn.net/files/3751/401/RoughlyEnoughProfessions-fabric-1.18.2-1.0.1.jar
 https://files.ss220.space/minecraft/mods/secretrooms-1.3.1+1.18.2.jar
 # https://maven.nucleoid.xyz/fr/catcore/server-translations-api/1.4.12%2B1.18.2/server-translations-api-1.4.12%2B1.18.2.jar
 https://media.forgecdn.net/files/3785/658/simulacrum-0.5.4-beta.jar
