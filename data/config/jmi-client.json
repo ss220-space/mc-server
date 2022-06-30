@@ -1,6 +1,6 @@
 {
   "ftbChunks": true,
-  "waystone": true,
+  "waystone": false,
   "waypointMessageBlocks": [],
   "waypointMessageEmptyHandOnly": true,
   "claimedChunkOverlayOpacity": 0.222223,
